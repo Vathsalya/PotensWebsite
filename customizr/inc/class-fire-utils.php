@@ -125,7 +125,7 @@ class TC_utils {
     */
     function tc_get_option( $option_name , $option_group = null ) {
         //do we have to look in a specific group of option (plugin?)
-        $option_group                   = is_null($option_group) ? 'tc_theme_options' : $option_group;
+        $option_group       = is_null($option_group) ? 'tc_theme_options' : $option_group;
 
         $saved              = (array) get_option( $option_group );
 
@@ -172,7 +172,7 @@ class TC_utils {
         global $post;
         
         //Article wrapper class definition
-        $global_layout                = TC_init::$instance -> global_layout;
+        $global_layout                = apply_filters( 'tc_global_layout' , TC_init::$instance -> global_layout );
 
         /* DEFAULT LAYOUTS */
         //get the global default layout
@@ -445,7 +445,7 @@ class TC_utils {
       $__options    = tc__f( '__options' );
 
       //gets the social network array
-      $socials      = TC_init::$instance -> socials;
+      $socials      = apply_filters( 'tc_default_socials' , TC_init::$instance -> socials );
 
       //declares some vars
       $target       = apply_filters( 'tc_socials_target', 'target=_blank' );

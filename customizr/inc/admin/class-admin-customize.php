@@ -163,7 +163,7 @@ class TC_customize {
 	* @since Customizr 3.1.0
 	*/
 	function tc_layout_choices() {
-	   	$global_layout 	= TC_init::$instance -> global_layout;
+	   	$global_layout 	= apply_filters( 'tc_global_layout' , TC_init::$instance -> global_layout );
 	   	$layout_choices = array(); 
 	   	foreach ($global_layout as $key => $value) {
 	   		$layout_choices[$key] 	= ( $value['customizer'] ) ? call_user_func(  '__' , $value['customizer'] , 'customizr' ) : null ;
@@ -202,13 +202,13 @@ class TC_customize {
 		$fp_setting_control	= array();
 
 		//gets the featured pages id from init
-		$fp_ids				= TC_init::$instance -> fp_ids;
+		$fp_ids				= apply_filters( 'tc_featured_pages_ids' , TC_init::$instance -> fp_ids);
 
 		//dropdown field generator
 		foreach ( $fp_ids as $id ) {
 			$priority = $priority + $incr;
 			$fp_setting_control['tc_theme_options[tc_featured_page_'. $id.']'] 		=  array(
-										'label'    		=> isset($default['dropdown'][$id]) ? $default['dropdown'][$id] :  'Custom featured page ' . $id,
+										'label'    		=> isset($default['dropdown'][$id]) ? $default['dropdown'][$id] :  sprintf( __('Custom featured page %1$s' , 'customizr' ) , $id ),
 										'section'  		=> 'tc_frontpage_settings' ,
 										'type'      	=> 'dropdown-pages' ,
 										'priority'      => $priority
@@ -224,7 +224,7 @@ class TC_customize {
 										'sanitize_callback' => array( $this , 'tc_sanitize_textarea' ),
 										'transport' 	=> 'postMessage',
 										'control'		=> 'TC_controls' ,
-										'label'    		=> isset($default['text'][$id]) ? $default['text'][$id] : 'Featured text two ' . $id,
+										'label'    		=> isset($default['text'][$id]) ? $default['text'][$id] : sprintf( __('Featured text %1$s (200 car. max)' , 'customizr' ) , $id ),
 										'section'  		=> 'tc_frontpage_settings' ,
 										'type'     		=> 'textarea' ,
 										'notice'		=> __( 'You need to select a page first. Leave this field empty if you want to use the page excerpt.' , 'customizr' ),
@@ -239,7 +239,7 @@ class TC_customize {
 
 	function tc_generates_socials() {
 		//gets the social network array
-		$socials 			= TC_init::$instance -> socials;
+		$socials 			= apply_filters( 'tc_default_socials' , TC_init::$instance -> socials );
 
 		//declares some loop's vars and the settings array
 		$priority 			= 50;//start priority
@@ -386,7 +386,7 @@ class TC_customize {
 															),
 						),
 		); //end of navigation options
-		$navigation_option_map = apply_filters( 'tc_navigation_option_map', $navigation_option_map );
+		$navigation_option_map = apply_filters( 'tc_navigation_option_map', $navigation_option_map , $get_default );
 
 
 
@@ -413,7 +413,7 @@ class TC_customize {
 															'notice'		=>	__( 'Uncheck this option to remove the colored top border.' , 'customizr' ),
 						)
 		);//end of skin options
-		apply_filters( 'tc_skin_option_map', $skin_option_map );
+		apply_filters( 'tc_skin_option_map', $skin_option_map, $get_default );
 
 
 		/*-----------------------------------------------------------------------------------------------------
@@ -450,7 +450,7 @@ class TC_customize {
 															'section'		=>	'tc_logo_settings' ,
 						)
 		);
-		$logo_favicon_option_map = apply_filters( 'tc_logo_favicon_option_map', $logo_favicon_option_map );
+		$logo_favicon_option_map = apply_filters( 'tc_logo_favicon_option_map', $logo_favicon_option_map , $get_default );
 
 
 
@@ -590,7 +590,7 @@ class TC_customize {
 
 		);//end of front_page_options
 		$front_page_option_map = array_merge( $front_page_option_map , $this -> tc_generates_featured_pages() );
-		$front_page_option_map = apply_filters( 'tc_front_page_option_map', $front_page_option_map );
+		$front_page_option_map = apply_filters( 'tc_front_page_option_map', $front_page_option_map , $get_default );
 
 
 
@@ -677,7 +677,7 @@ class TC_customize {
 															//'priority'       => 6,
 															),
 		);//end of layout_options
-		$layout_option_map = apply_filters( 'tc_layout_option_map', $layout_option_map );
+		$layout_option_map = apply_filters( 'tc_layout_option_map', $layout_option_map , $get_default);
 
 
 
@@ -696,7 +696,7 @@ class TC_customize {
 															'notice'		=> __( 'This option will enable comments on pages. You can disable comments for a single page in the quick edit mode of the page list screen.' , 'customizr' ),
 						)
 		);
-		$comment_option_map = apply_filters( 'tc_comment_option_map', $comment_option_map );
+		$comment_option_map = apply_filters( 'tc_comment_option_map', $comment_option_map , $get_default );
 
 
 
@@ -743,7 +743,7 @@ class TC_customize {
 		);//end of social layout map
 						
 		$social_option_map = array_merge( $social_layout_map , $this -> tc_generates_socials() );
-		$social_option_map = apply_filters( 'tc_social_option_map', $social_option_map );
+		$social_option_map = apply_filters( 'tc_social_option_map', $social_option_map, $get_default );
 
 
 
@@ -779,7 +779,7 @@ class TC_customize {
 															'notice'		=> __( 'If enabled, your website will include support for high resolution devices.' , 'customizr' ),
 						)
 		);//end of images options
-		$images_option_map = apply_filters( 'tc_images_option_map', $images_option_map );
+		$images_option_map = apply_filters( 'tc_images_option_map', $images_option_map , $get_default );
 
 
 		/*-----------------------------------------------------------------------------------------------------
@@ -795,7 +795,7 @@ class TC_customize {
 															'notice'		=> __( 'If enabled, this option activates a smooth page scroll when clicking on a link to an anchor of the same page.' , 'customizr' ),
 						)
 		);//end of links options
-		$links_option_map = apply_filters( 'tc_links_option_map', $links_option_map );
+		$links_option_map = apply_filters( 'tc_links_option_map', $links_option_map , $get_default );
 
 		/*-----------------------------------------------------------------------------------------------------
 								                   CUSTOM CSS
@@ -811,7 +811,7 @@ class TC_customize {
 															'notice'		=> __( 'Always use this field to add your custom css instead of editing directly the style.css file : it will not be deleted during theme updates. You can also paste your custom css in the style.css file of a child theme.' , 'customizr' )
 						)
 		);//end of custom_css_options
-		$custom_css_option_map = apply_filters( 'tc_custom_css_option_map', $custom_css_option_map );
+		$custom_css_option_map = apply_filters( 'tc_custom_css_option_map', $custom_css_option_map , $get_default );
 
 		$add_setting_control = array(
 						'add_setting_control'   =>   array_merge(
@@ -1018,7 +1018,7 @@ class TC_customize {
 			);
 
 		//gets the featured pages id from init
-		$fp_ids				= TC_init::$instance -> fp_ids;
+		$fp_ids				= apply_filters( 'tc_featured_pages_ids' , TC_init::$instance -> fp_ids);
 
 		//declares the common fp control fields and the dynamic arrays
 		$fp_controls 			= array(
@@ -1037,10 +1037,12 @@ class TC_customize {
 		//localizes
 		wp_localize_script( 
 	        'tc-customizer-controls', 
-	        'TCControlParams', 
+	        'TCControlParams',
+	        apply_filters('tc_js_customizer_control_params' ,
 		        array(
 		        	'FPControls' => array_merge( $fp_controls , $page_dropdowns , $text_fields )
 		        )
+		    )
         );
 
 		//adds some nice google fonts to the customizer

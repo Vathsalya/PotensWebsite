@@ -33,6 +33,17 @@ The exceptions to this license are as follows:
 
 
 #######################  Changelog ######################
+= 3.1.6 =
+* added : (php)(js) customizer controls : new filter for localized params
+* added : (php) featured pages : new filters for title, excerpt and button blocks
+* added : (php) search : form in the header if any results are found
+* improved : (php) body tag : "itemscope itemtype="http://schema.org/WebPage" included in the 'tc_body_attributes' filter hook
+* improved : (php) overall code : check added on ob_end_clean()
+* improved : (php) headings : new filters by conditional tags
+* improved : (php) comments : 'comment_text' WP built-in filter has been added in the comment callback function
+* fixed : (js) submenu opening on click problem : [data-toggle="dropdown"] links are excluded from smoothscroll function
+* fixed : (php) compatibility with NEXTGEN plugin : fixed ob_start() in class-content-headings::tc_content_headings()
+
 = 3.1.5 =
 * fixed : (php) child themes bug : child theme users can now override the Customizr files with same path/name.php.
 

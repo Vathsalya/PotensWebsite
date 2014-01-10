@@ -54,7 +54,7 @@ jQuery(document).ready(function () {
         var SmoothScroll = TCParams.SmoothScroll;
 
         if ('easeOutExpo' == SmoothScroll) {
-            a('a[href^="#"]').not('.carousel-control, [data-toggle="modal"], [data-toggle="tooltip"], [data-toggle="popover"], [data-toggle="collapse"], [data-toggle="tab"]').click(function () {
+            a('a[href^="#"]').not('[class*=edd], .carousel-control, [data-toggle="modal"], [data-toggle="dropdown"], [data-toggle="tooltip"], [data-toggle="popover"], [data-toggle="collapse"], [data-toggle="tab"]').click(function () {
                 var anchor_id = a(this).attr("href");
                 if ('#' != anchor_id) {
                     a('html, body').animate({

@@ -44,11 +44,16 @@ class TC_widgets {
                                   )
         );
 
+        //gets the filtered default values
+        $footer_widgets           = apply_filters( 'tc_footer_widgets'  , TC_init::$instance -> footer_widgets );
+        $sidebar_widgets          = apply_filters( 'tc_sidebar_widgets' , TC_init::$instance -> sidebar_widgets );
+        $widgets                  = apply_filters( 'tc_default_widgets' , array_merge( $sidebar_widgets , $footer_widgets ) );
+
         //declares the arguments array
         $args                     = array();
 
         //fills in the $args array and registers sidebars
-        foreach ( TC_init::$instance -> widgets as $id => $infos) {
+        foreach ( $widgets as $id => $infos) {
             foreach ( $default as $key => $default_value ) {
               if ('id' == $key ) {
                 $args[$key] = $id;

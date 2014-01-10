@@ -24,7 +24,7 @@
 		do_action( '__before_body' ); 
 	?>
 
-	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage" <?php echo tc__f('tc_body_attributes' , '') ?>>
+	<body <?php body_class(); ?> <?php echo tc__f('tc_body_attributes' , 'itemscope itemtype="http://schema.org/WebPage"') ?>>
 		
 		<?php do_action( '__before_header' ); ?>
 

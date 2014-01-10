@@ -101,10 +101,10 @@ class TC___ {
                         array(
                             'fire'      =>   array(
                                             array('inc' , 'init'),//defines default values (layout, socials, default slider...) and theme supports (after_setup_theme)
-                                            array('inc' , 'ressources'),//loads style and scripts
+                                            array('inc' , 'resources'),//loads style (skins) and scripts
                                             array('inc' , 'utils'),//those are helpers used everywhere
                                             array('inc' , 'widgets'),//widget factory
-                                            array('inc/admin' , 'admin_init'),//fires the customizer and the metaboxes for slider and layout
+                                            array('inc/admin' , 'admin_init'),//fires the customizer and the metaboxes for slider and layout options
                                         ),
                             //the following files/classes define the action hooks for front end rendering : header, main content, footer
                             'header'    =>   array(
@@ -165,7 +165,7 @@ class TC___ {
         if( ! defined( 'TC_BASE' ) )            { define( 'TC_BASE' , get_template_directory().'/' ); }
 
         /* TC_BASE_CHILD is the root server path of the child theme */
-        if ( ! defined( 'TC_BASE_CHILD' ) )     { define( 'TC_BASE_CHILD' , get_stylesheet_directory().'/' ); }
+        if( ! defined( 'TC_BASE_CHILD' ) )      { define( 'TC_BASE_CHILD' , get_stylesheet_directory().'/' ); }
 
         /* TC_BASE_URL http url of the loaded parent theme*/
         if( ! defined( 'TC_BASE_URL' ) )        { define( 'TC_BASE_URL' , get_template_directory_uri() . '/' ); }
@@ -208,7 +208,7 @@ class TC___ {
                 }
                 
                 $classname = 'TC_' . $path_suffix[1];
-                if( !isset( $instances[ $classname ] ) ) 
+                if( ! isset( $instances[ $classname ] ) ) 
                 {
                     $instances[ $classname ] = class_exists($classname)  ? new $classname : '';
                 }
@@ -236,7 +236,7 @@ class TC___ {
          }
          else {
             $tc_theme       = get_theme_data( get_stylesheet_directory() . '/style.css' );
-            $is_child       = ( !empty($tc_theme['Template']) ) ? true : false;
+            $is_child       = ( ! empty($tc_theme['Template']) ) ? true : false;
         }
 
         return $is_child;

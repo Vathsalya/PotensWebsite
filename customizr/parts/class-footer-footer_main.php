@@ -147,11 +147,11 @@ class TC_footer_main {
     		'tc_credits_display',
     		sprintf('<div class="%1$s">%2$s</div>',
 	    		apply_filters( 'tc_colophon_center_block_class', 'span4 credits' ),
-	    		sprintf( '<p> &middot; &copy; %1$s <a href="%2$s" title="%3$s" rel="bookmark">%3$s</a> &middot; Designed by %4$s &middot;</p>',
+	    		sprintf( '<p> &middot; &copy; %1$s <a href="%2$s" title="%3$s" rel="bookmark">%3$s</a> </p>',
 					    esc_attr( date( 'Y' ) ),
 					    esc_url( home_url() ),
 					    esc_attr(get_bloginfo()),
-					    '<a href="'.TC_WEBSITE.'">Themes &amp; Co</a>'
+					    '<a href="'.TC_WEBSITE.'"> Co</a>'
 				)
     		)
     	);

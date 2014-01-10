@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Customizr 1.1.5\n"
-"POT-Creation-Date: 2013-12-14 14:23+0100\n"
-"PO-Revision-Date: 2013-12-14 14:23+0100\n"
+"Project-Id-Version: * Customizr v3.1.6\n"
+"POT-Creation-Date: 2013-12-27 11:28+0100\n"
+"PO-Revision-Date: 2013-12-27 11:28+0100\n"
 "Last-Translator: Nico <contact@themesandco.com>\n"
 "Language-Team: Nicolas G. <contact@themesandco.com>\n"
 "Language: Français\n"
@@ -20,249 +20,249 @@ msgstr ""
 msgid "Leave a Comment"
 msgstr "发表评论"
 
-#: ../inc/class-fire-init.php:47 ../inc/class-fire-init.php:48
+#: ../inc/class-fire-init.php:45 ../inc/class-fire-init.php:46
 msgid "Right sidebar"
 msgstr "右边栏"
 
-#: ../inc/class-fire-init.php:53 ../inc/class-fire-init.php:54
+#: ../inc/class-fire-init.php:51 ../inc/class-fire-init.php:52
 msgid "Left sidebar"
 msgstr "左边栏"
 
-#: ../inc/class-fire-init.php:59 ../inc/class-fire-init.php:60
+#: ../inc/class-fire-init.php:57 ../inc/class-fire-init.php:58
 msgid "2 sidebars : Right and Left"
 msgstr "双边栏：左边和右边"
 
-#: ../inc/class-fire-init.php:65 ../inc/class-fire-init.php:66
+#: ../inc/class-fire-init.php:63 ../inc/class-fire-init.php:64
 msgid "No sidebars : full width layout"
 msgstr "无侧边栏：满页宽度样式"
 
-#: ../inc/class-fire-init.php:78
+#: ../inc/class-fire-init.php:75
 msgid "Blue"
 msgstr "蓝色"
 
-#: ../inc/class-fire-init.php:79
+#: ../inc/class-fire-init.php:76
 msgid "Green"
 msgstr "绿色"
 
-#: ../inc/class-fire-init.php:80
+#: ../inc/class-fire-init.php:77
 msgid "Yellow"
 msgstr "黄色"
 
-#: ../inc/class-fire-init.php:81
+#: ../inc/class-fire-init.php:78
 msgid "Orange"
 msgstr "橙色"
 
-#: ../inc/class-fire-init.php:82
+#: ../inc/class-fire-init.php:79
 msgid "Red"
 msgstr "红色"
 
-#: ../inc/class-fire-init.php:83
+#: ../inc/class-fire-init.php:80
 msgid "Purple"
 msgstr "紫色"
 
-#: ../inc/class-fire-init.php:84
+#: ../inc/class-fire-init.php:81
 msgid "Grey"
 msgstr "灰色"
 
-#: ../inc/class-fire-init.php:85
+#: ../inc/class-fire-init.php:82
 msgid "Black"
 msgstr "黑色"
 
-#: ../inc/class-fire-init.php:95
+#: ../inc/class-fire-init.php:91
 msgid "Suscribe to my rss feed"
 msgstr "订阅我的 RSS"
 
-#: ../inc/class-fire-init.php:96
+#: ../inc/class-fire-init.php:92
 msgid "RSS feed (default is the wordpress feed)"
 msgstr "RSS 订阅（默认是订阅 wordpress 内容）"
 
-#: ../inc/class-fire-init.php:100
+#: ../inc/class-fire-init.php:96
 msgid "Follow me on Twitter"
 msgstr "在Twitter上关注我"
 
-#: ../inc/class-fire-init.php:101
+#: ../inc/class-fire-init.php:97
 msgid "Twitter profile url"
 msgstr "Twitter上的个人页面地址"
 
-#: ../inc/class-fire-init.php:105
+#: ../inc/class-fire-init.php:101
 msgid "Follow me on Facebook"
 msgstr "在Facebook上关注我"
 
-#: ../inc/class-fire-init.php:106
+#: ../inc/class-fire-init.php:102
 msgid "Facebook profile url"
 msgstr "Facebook上的个人页面地址"
 
-#: ../inc/class-fire-init.php:110
+#: ../inc/class-fire-init.php:106
 msgid "Follow me on Google+"
 msgstr "在Google+上关注我"
 
-#: ../inc/class-fire-init.php:111
+#: ../inc/class-fire-init.php:107
 msgid "Google+ profile url"
 msgstr "Google+上的个人页面地址"
 
-#: ../inc/class-fire-init.php:115
+#: ../inc/class-fire-init.php:111
 msgid "Follow me on Instagram"
 msgstr "在Instagram上关注我"
 
-#: ../inc/class-fire-init.php:116
+#: ../inc/class-fire-init.php:112
 msgid "Instagram profile url"
 msgstr "Instagram上的个人页面地址"
 
-#: ../inc/class-fire-init.php:120
+#: ../inc/class-fire-init.php:116
 msgid "Follow me on WordPress"
 msgstr "在WordPress上关注我"
 
-#: ../inc/class-fire-init.php:121
+#: ../inc/class-fire-init.php:117
 msgid "WordPress profile url"
 msgstr "WordPress上的个人页面地址"
 
-#: ../inc/class-fire-init.php:125
+#: ../inc/class-fire-init.php:121
 msgid "Follow me on Youtube"
 msgstr "在YouTube上关注我"
 
-#: ../inc/class-fire-init.php:126
+#: ../inc/class-fire-init.php:122
 msgid "Youtube profile url"
 msgstr "YouTube上的个人页面地址"
 
-#: ../inc/class-fire-init.php:130
+#: ../inc/class-fire-init.php:126
 msgid "Pin me on Pinterest"
 msgstr "在Pinterest上关注我"
 
-#: ../inc/class-fire-init.php:131
+#: ../inc/class-fire-init.php:127
 msgid "Pinterest profile url"
 msgstr "Pinterest上的个人页面地址"
 
-#: ../inc/class-fire-init.php:135
+#: ../inc/class-fire-init.php:131
 msgid "Follow me on Github"
 msgstr "在Github上关注我"
 
-#: ../inc/class-fire-init.php:136
+#: ../inc/class-fire-init.php:132
 msgid "Github profile url"
 msgstr "Github上的个人页面地址"
 
-#: ../inc/class-fire-init.php:140
+#: ../inc/class-fire-init.php:136
 msgid "Follow me on Dribbble"
 msgstr "在Dribbble上关注我"
 
-#: ../inc/class-fire-init.php:141
+#: ../inc/class-fire-init.php:137
 msgid "Dribbble profile url"
 msgstr "Dribbble上的个人页面地址"
 
-#: ../inc/class-fire-init.php:145
+#: ../inc/class-fire-init.php:141
 msgid "Follow me on LinkedIn"
 msgstr "在LinkedIn上关注我"
 
-#: ../inc/class-fire-init.php:146
+#: ../inc/class-fire-init.php:142
 msgid "LinkedIn profile url"
 msgstr "LinkedIn上的个人页面地址"
 
-#: ../inc/class-fire-init.php:159
+#: ../inc/class-fire-init.php:151
 msgid "Right Sidebar"
 msgstr "右边栏"
 
-#: ../inc/class-fire-init.php:160 ../inc/class-fire-init.php:164
+#: ../inc/class-fire-init.php:152 ../inc/class-fire-init.php:156
 #, fuzzy
 msgid "Appears on posts, static pages, archives and search pages"
 msgstr "出现在文章，静态页面，归档和搜索页面中"
 
-#: ../inc/class-fire-init.php:163
+#: ../inc/class-fire-init.php:155
 msgid "Left Sidebar"
 msgstr "左边栏"
 
-#: ../inc/class-fire-init.php:173
+#: ../inc/class-fire-init.php:163
 #, fuzzy
 msgid "Footer Widget Area One"
 msgstr "页脚小工具区域一"
 
-#: ../inc/class-fire-init.php:174 ../inc/class-fire-init.php:178
-#: ../inc/class-fire-init.php:182
+#: ../inc/class-fire-init.php:164 ../inc/class-fire-init.php:168
+#: ../inc/class-fire-init.php:172
 msgid "Just use it as you want !"
 msgstr "随意使用吧！"
 
-#: ../inc/class-fire-init.php:177
+#: ../inc/class-fire-init.php:167
 #, fuzzy
 msgid "Footer Widget Area Two"
 msgstr "Deuxième zone de widgets de page d'accueil"
 
-#: ../inc/class-fire-init.php:181
+#: ../inc/class-fire-init.php:171
 #, fuzzy
 msgid "Footer Widget Area Three"
 msgstr "Troisième zone de widgets de page d'accueil"
 
-#: ../inc/class-fire-init.php:206
+#: ../inc/class-fire-init.php:189
 msgid "Speaking the Truth in times of universal deceit is a revolutionary act."
 msgstr "在大欺骗的时代，说出真相才是革命性的举动"
 
-#: ../inc/class-fire-init.php:207
+#: ../inc/class-fire-init.php:190
 msgid "George Orwell"
 msgstr "乔治・奥韦尔"
 
-#: ../inc/class-fire-init.php:208
+#: ../inc/class-fire-init.php:191
 msgid ""
 "Sorry, but the requested page is not found. You might try a search below."
 msgstr "抱歉，您申请的页面没找到，您可以在下方尝试搜索。"
 
-#: ../inc/class-fire-init.php:215
+#: ../inc/class-fire-init.php:196
 msgid ""
 "Success is the ability to go from one failure to another with no loss of "
 "enthusiasm..."
 msgstr "成功就是具备从在失败中也不放弃的精神。"
 
-#: ../inc/class-fire-init.php:216
+#: ../inc/class-fire-init.php:197
 msgid "Sir Winston Churchill"
 msgstr "温斯顿・邱吉尔爵士"
 
-#: ../inc/class-fire-init.php:217
+#: ../inc/class-fire-init.php:198
 msgid ""
 "Sorry, but nothing matched your search criteria. Please try again with some "
 "different keywords."
 msgstr "对不起，但是没有找到符合您搜索词汇的内容。请使用其他搜索词汇再次尝试。"
 
-#: ../inc/class-fire-init.php:225 ../inc/class-fire-init.php:234
+#: ../inc/class-fire-init.php:204 ../inc/class-fire-init.php:213
 msgid "Customizr is a clean responsive theme"
 msgstr "Customizr 是一个清新交互的主题"
 
-#: ../inc/class-fire-init.php:226
+#: ../inc/class-fire-init.php:205
 msgid "Let your creativity speak and easily customiz'it the way you want!"
 msgstr "让您的的创造力得到个性化的展现！"
 
-#: ../inc/class-fire-init.php:227
+#: ../inc/class-fire-init.php:206
 #, fuzzy
 msgid "Learn more"
 msgstr "了解更多"
 
-#: ../inc/class-fire-init.php:239 ../inc/class-fire-init.php:248
+#: ../inc/class-fire-init.php:218 ../inc/class-fire-init.php:227
 #, fuzzy
 msgid "Style your WordPress site live!"
 msgstr "个性定制您的网站并同时查看效果"
 
-#: ../inc/class-fire-init.php:240
+#: ../inc/class-fire-init.php:219
 msgid ""
 "Many layout and design options are available from the WordPress customizer "
 "screen : see your changes live !"
 msgstr ""
 "在WordPress中的个性化定制中很多样式和设计选项都可用，等着看您的网站成果啦！"
 
-#: ../inc/class-fire-init.php:241
+#: ../inc/class-fire-init.php:220
 #, fuzzy
 msgid "Just try it!"
 msgstr "开始动手做吧！"
 
-#: ../inc/class-fire-init.php:253 ../inc/class-fire-init.php:262
+#: ../inc/class-fire-init.php:232 ../inc/class-fire-init.php:241
 msgid "Create beautiful sliders"
 msgstr "创建美丽的滑块"
 
-#: ../inc/class-fire-init.php:254
+#: ../inc/class-fire-init.php:233
 msgid ""
 "Customizr comes with a cool slider generator : add a slider to any post or "
 "page!"
 msgstr "Customizr 中包含一个很酷的滑块生成器：添加滑块到任何文章和页面！"
 
-#: ../inc/class-fire-init.php:255
+#: ../inc/class-fire-init.php:234
 msgid "Discover the features"
 msgstr "发现特色功能"
 
-#: ../inc/class-fire-init.php:320
+#: ../inc/class-fire-init.php:295
 #, fuzzy
 msgid "Main Menu"
 msgstr "主菜单"
@@ -314,6 +314,16 @@ msgstr "特色文字区域二（最多100字）"
 #: ../inc/admin/class-admin-customize.php:195
 msgid "Featured text three (200 car. max)"
 msgstr "特色文字区域三（最多100字）"
+
+#: ../inc/admin/class-admin-customize.php:211
+#, fuzzy, php-format
+msgid "Custom featured page %1$s"
+msgstr "首页特色页面二"
+
+#: ../inc/admin/class-admin-customize.php:227
+#, fuzzy, php-format
+msgid "Featured text %1$s (200 car. max)"
+msgstr "特色文字区域一（最多100字）"
 
 #: ../inc/admin/class-admin-customize.php:230
 msgid ""
@@ -400,134 +410,126 @@ msgstr "个性化定制 CSS"
 msgid "Add your own CSS"
 msgstr "添加您自己的 CSS"
 
-#: ../inc/admin/class-admin-customize.php:346
-msgid "Dev Tools (advanced users)"
-msgstr "开发者工具 （适用于高级用户）"
-
-#: ../inc/admin/class-admin-customize.php:348
-msgid "Enable/disable the Dev Tools"
-msgstr "启用/停用开发者工具"
-
-#: ../inc/admin/class-admin-customize.php:380
+#: ../inc/admin/class-admin-customize.php:374
 #, fuzzy
 msgid "Manage menus"
 msgstr "管理菜单"
 
-#: ../inc/admin/class-admin-customize.php:386
+#: ../inc/admin/class-admin-customize.php:380
 msgid "Select a submenu expansion option"
 msgstr "选择子菜单扩展选项"
 
-#: ../inc/admin/class-admin-customize.php:390
+#: ../inc/admin/class-admin-customize.php:384
 msgid "Expand submenus on click"
 msgstr "点击打开子菜单"
 
-#: ../inc/admin/class-admin-customize.php:391
+#: ../inc/admin/class-admin-customize.php:385
 msgid "Expand submenus on hover"
 msgstr "鼠标划跃至上方以打开子菜单"
 
-#: ../inc/admin/class-admin-customize.php:406
+#: ../inc/admin/class-admin-customize.php:400
 msgid "Choose a predefined skin"
 msgstr "选择一款预设皮肤"
 
-#: ../inc/admin/class-admin-customize.php:415
+#: ../inc/admin/class-admin-customize.php:409
 #, fuzzy
 msgid "Display top border"
 msgstr "显示上方边框"
 
-#: ../inc/admin/class-admin-customize.php:419
+#: ../inc/admin/class-admin-customize.php:413
 msgid "Uncheck this option to remove the colored top border."
 msgstr "不选此项以消除彩色上方边框"
 
-#: ../inc/admin/class-admin-customize.php:432
+#: ../inc/admin/class-admin-customize.php:426
 msgid "Logo Upload (supported formats : .jpg, .png, .gif)"
 msgstr "上传 Logo （支持: .jpb, .png, .gif 文件格式）"
 
-#: ../inc/admin/class-admin-customize.php:439
+#: ../inc/admin/class-admin-customize.php:433
 msgid "Force logo dimensions to max-width:250px and max-height:100px"
 msgstr "强迫 Logo 大小设定为：最大宽度 250px，最大高度：100px"
 
-#: ../inc/admin/class-admin-customize.php:455
+#: ../inc/admin/class-admin-customize.php:449
 msgid "Favicon Upload (supported formats : .ico, .png, .gif)"
 msgstr "上传图标（支持：.ico, .png, .gif 文件格式）"
 
-#: ../inc/admin/class-admin-customize.php:471
+#: ../inc/admin/class-admin-customize.php:465
 msgid "Choose content and layout"
 msgstr "选择内容和样式"
 
-#: ../inc/admin/class-admin-customize.php:479
+#: ../inc/admin/class-admin-customize.php:473
 msgid "Front page displays"
 msgstr "首页显示"
 
-#: ../inc/admin/class-admin-customize.php:484
+#: ../inc/admin/class-admin-customize.php:478
 msgid "Don't show any posts or page"
 msgstr "不显示任何文章和页面"
 
-#: ../inc/admin/class-admin-customize.php:485
+#: ../inc/admin/class-admin-customize.php:479
 msgid "Your latest posts"
 msgstr "您最新发表的文章"
 
-#: ../inc/admin/class-admin-customize.php:486
+#: ../inc/admin/class-admin-customize.php:480
 msgid "A static page"
 msgstr "一个静态页面"
 
-#: ../inc/admin/class-admin-customize.php:492
+#: ../inc/admin/class-admin-customize.php:486
 msgid "Front page"
 msgstr "首页"
 
-#: ../inc/admin/class-admin-customize.php:500
+#: ../inc/admin/class-admin-customize.php:494
 msgid "Posts page"
 msgstr "文章页面"
 
-#: ../inc/admin/class-admin-customize.php:509
+#: ../inc/admin/class-admin-customize.php:503
 #, fuzzy
 msgid "Set up the front page layout"
 msgstr "配置首页样式"
 
-#: ../inc/admin/class-admin-customize.php:520
+#: ../inc/admin/class-admin-customize.php:514
 #, fuzzy
 msgid "Slider options"
 msgstr "滑块选项"
 
-#: ../inc/admin/class-admin-customize.php:521
+#: ../inc/admin/class-admin-customize.php:515
 #, fuzzy
 msgid "Select front page slider"
 msgstr "Première zone de widgets de page d'accueil"
 
-#: ../inc/admin/class-admin-customize.php:533
+#: ../inc/admin/class-admin-customize.php:527
 msgid "Full width slider"
 msgstr "满页宽度滑块"
 
-#: ../inc/admin/class-admin-customize.php:552
+#: ../inc/admin/class-admin-customize.php:546
 msgid "Delay between each slides"
 msgstr "幻灯片之间停滞时长"
 
-#: ../inc/admin/class-admin-customize.php:557
+#: ../inc/admin/class-admin-customize.php:551
 msgid "in ms : 1000ms = 1s"
 msgstr "以毫秒计算：1000毫秒 = 1秒"
 
-#: ../inc/admin/class-admin-customize.php:565
+#: ../inc/admin/class-admin-customize.php:559
 #, fuzzy
 msgid "Featured pages options"
 msgstr "特色页面"
 
-#: ../inc/admin/class-admin-customize.php:566
+#: ../inc/admin/class-admin-customize.php:560
 msgid "Display home featured pages area"
 msgstr "在首页上显示特色页面区域"
 
-#: ../inc/admin/class-admin-customize.php:570
+#: ../inc/admin/class-admin-customize.php:564
 msgid "Enable"
 msgstr "启用"
 
-#: ../inc/admin/class-admin-customize.php:571
+#: ../inc/admin/class-admin-customize.php:565
 msgid "Disable"
 msgstr "停用"
 
-#: ../inc/admin/class-admin-customize.php:580
+#: ../inc/admin/class-admin-customize.php:574
 #, fuzzy
 msgid "Show images"
 msgstr "显示图片"
 
-#: ../inc/admin/class-admin-customize.php:583
+#: ../inc/admin/class-admin-customize.php:577
 msgid ""
 "The images are set with the \"featured image\" of each pages (in the page "
 "edit screen). Uncheck the option above to disable the featured page images."
@@ -535,68 +537,68 @@ msgstr ""
 "这些图片是由每页（页面编辑屏中的）中的特色图片设定的，不选上方的此项以停用这"
 "些特色图片。"
 
-#: ../inc/admin/class-admin-customize.php:589
+#: ../inc/admin/class-admin-customize.php:583
 #, fuzzy
 msgid "Read more &raquo;"
 msgstr "阅读更多"
 
-#: ../inc/admin/class-admin-customize.php:591
+#: ../inc/admin/class-admin-customize.php:585
 msgid "Button text"
 msgstr "按钮文字"
 
-#: ../inc/admin/class-admin-customize.php:612
+#: ../inc/admin/class-admin-customize.php:606
 #, fuzzy
 msgid "Display Breadcrumb"
 msgstr "显示导航栏"
 
-#: ../inc/admin/class-admin-customize.php:622
+#: ../inc/admin/class-admin-customize.php:616
 msgid "Choose the global default layout"
 msgstr "选择全局默认样式"
 
-#: ../inc/admin/class-admin-customize.php:633
+#: ../inc/admin/class-admin-customize.php:627
 msgid "Force default layout everywhere"
 msgstr "强迫全网站使用默认样式"
 
-#: ../inc/admin/class-admin-customize.php:636
+#: ../inc/admin/class-admin-customize.php:630
 msgid ""
 "This option will override the specific layouts on all posts/pages, including "
 "the front page."
 msgstr ""
 "此项将重新配置其他已经配置过样式的文章/页面和首页，并套用全网站的默认样式。"
 
-#: ../inc/admin/class-admin-customize.php:643
+#: ../inc/admin/class-admin-customize.php:637
 msgid "Choose the posts default layout"
 msgstr "选择文章默认样式"
 
-#: ../inc/admin/class-admin-customize.php:655
+#: ../inc/admin/class-admin-customize.php:649
 msgid "Maximum number of posts per page"
 msgstr "每页最多显示的文章数量"
 
-#: ../inc/admin/class-admin-customize.php:666
+#: ../inc/admin/class-admin-customize.php:660
 msgid "Select the length of posts in lists (home, search, archives, ...)"
 msgstr "在栏目（主页、搜索、归档等）中设定发表文章的可见内容长度"
 
-#: ../inc/admin/class-admin-customize.php:670
+#: ../inc/admin/class-admin-customize.php:664
 #, fuzzy
 msgid "Display the excerpt"
 msgstr "显示上方边框"
 
-#: ../inc/admin/class-admin-customize.php:671
+#: ../inc/admin/class-admin-customize.php:665
 #, fuzzy
 msgid "Display the full content"
 msgstr "显示上方边框"
 
-#: ../inc/admin/class-admin-customize.php:679
+#: ../inc/admin/class-admin-customize.php:673
 #, fuzzy
 msgid "Choose the pages default layout"
 msgstr "选择文章默认样式"
 
-#: ../inc/admin/class-admin-customize.php:699
+#: ../inc/admin/class-admin-customize.php:693
 #, fuzzy
 msgid "Enable comments on pages"
 msgstr "在页面上启用评论功能"
 
-#: ../inc/admin/class-admin-customize.php:702
+#: ../inc/admin/class-admin-customize.php:696
 msgid ""
 "This option will enable comments on pages. You can disable comments for a "
 "single page in the quick edit mode of the page list screen."
@@ -604,27 +606,27 @@ msgstr ""
 "此项将在页面上启用评论功能。您可以在页面列表屏的编辑模式上单独为某个页面停用"
 "评论功能。"
 
-#: ../inc/admin/class-admin-customize.php:716
+#: ../inc/admin/class-admin-customize.php:710
 msgid "Social links in header"
 msgstr "在页头显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:725
+#: ../inc/admin/class-admin-customize.php:719
 msgid "Social links in left sidebar"
 msgstr "在左边栏显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:734
+#: ../inc/admin/class-admin-customize.php:728
 msgid "Social links in right sidebar"
 msgstr "在右边栏显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:743
+#: ../inc/admin/class-admin-customize.php:737
 msgid "Social links in footer"
 msgstr "在页脚显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:764
+#: ../inc/admin/class-admin-customize.php:758
 msgid "Enable/disable lightbox effect on images"
 msgstr "在图片上启用/停用灯箱效果"
 
-#: ../inc/admin/class-admin-customize.php:767
+#: ../inc/admin/class-admin-customize.php:761
 msgid ""
 "If enabled, this option activate a popin window whith a zoom effect when an "
 "image is clicked. This will not apply to image gallery."
@@ -632,41 +634,41 @@ msgstr ""
 "如果启用此项，当图片被点击时会自动跳出具有缩放功能的弹窗。该功能并不会适用于"
 "图像画廊。"
 
-#: ../inc/admin/class-admin-customize.php:773
+#: ../inc/admin/class-admin-customize.php:767
 msgid "Autoscale images on zoom"
 msgstr "图片缩放时自动调整大小"
 
-#: ../inc/admin/class-admin-customize.php:776
+#: ../inc/admin/class-admin-customize.php:770
 msgid ""
 "If enabled, this option will force images to fit the screen on lightbox zoom."
 msgstr "启用后，此项功能将迫使图片在灯箱缩放效果中自动适应浏览器窗口大小"
 
-#: ../inc/admin/class-admin-customize.php:782
+#: ../inc/admin/class-admin-customize.php:776
 #, fuzzy
 msgid "Enable/disable retina support"
 msgstr "启用/停用开发者工具"
 
-#: ../inc/admin/class-admin-customize.php:785
+#: ../inc/admin/class-admin-customize.php:779
 msgid ""
 "If enabled, your website will include support for high resolution devices."
 msgstr "启用后，您的网站将能够支持在高分辨率设备上显示"
 
-#: ../inc/admin/class-admin-customize.php:798
+#: ../inc/admin/class-admin-customize.php:792
 #, fuzzy
 msgid "Enable/disable smooth scroll on click"
 msgstr "启用/停用开发者工具"
 
-#: ../inc/admin/class-admin-customize.php:801
+#: ../inc/admin/class-admin-customize.php:795
 msgid ""
 "If enabled, this option activates a smooth page scroll when clicking on a "
 "link to an anchor of the same page."
 msgstr "启用后，此选项将允许页面平滑移动到链接指向地址"
 
-#: ../inc/admin/class-admin-customize.php:814
+#: ../inc/admin/class-admin-customize.php:808
 msgid "Add your custom css here and design live! (for advanced users)"
 msgstr "在此处添加个性化 CSS 并同时查看效果！（适用于高级用户）"
 
-#: ../inc/admin/class-admin-customize.php:817
+#: ../inc/admin/class-admin-customize.php:811
 msgid ""
 "Always use this field to add your custom css instead of editing directly the "
 "style.css file : it will not be deleted during theme updates. You can also "
@@ -682,25 +684,25 @@ msgid "Layout Options"
 msgstr "样式选项"
 
 #: ../inc/admin/class-admin-meta_boxes.php:97
-#: ../inc/admin/class-admin-meta_boxes.php:469
+#: ../inc/admin/class-admin-meta_boxes.php:470
 #, fuzzy
 msgid "Slider Options"
 msgstr "Options du thème"
 
-#: ../inc/admin/class-admin-meta_boxes.php:165
+#: ../inc/admin/class-admin-meta_boxes.php:166
 #, php-format
 msgid "Default %1$s layout is set to : %2$s"
 msgstr "默认 %1$s 样式设定为：%2$s"
 
-#: ../inc/admin/class-admin-meta_boxes.php:165
+#: ../inc/admin/class-admin-meta_boxes.php:166
 msgid "pages"
 msgstr "页面"
 
-#: ../inc/admin/class-admin-meta_boxes.php:165
+#: ../inc/admin/class-admin-meta_boxes.php:166
 msgid "posts"
 msgstr "文章"
 
-#: ../inc/admin/class-admin-meta_boxes.php:170
+#: ../inc/admin/class-admin-meta_boxes.php:171
 msgid ""
 "You have checked the <i>\"Force global default layout for all posts and pages"
 "\"</i>, you must unchecked this option to enable a specific layout for this "
@@ -709,11 +711,11 @@ msgstr ""
 "您已经勾选了<i>\"强迫全网站所有文章和页面使用默认样式\"</i>，您必须不选中此项"
 "才能在此文章上启用单独样式。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:171
+#: ../inc/admin/class-admin-meta_boxes.php:172
 msgid "Change layout options"
 msgstr "更改样式选项"
 
-#: ../inc/admin/class-admin-meta_boxes.php:175
+#: ../inc/admin/class-admin-meta_boxes.php:176
 #, fuzzy, php-format
 msgid ""
 "You can define a specific layout for %1$s by using the pre-defined left and "
@@ -723,83 +725,83 @@ msgstr ""
 "您可以通过使用预设的左边栏和右边栏给定制一个单独的样式，默认的样式也可以在"
 "WordPress 个性化定制屏上定制"
 
-#: ../inc/admin/class-admin-meta_boxes.php:176
-#: ../inc/admin/class-admin-meta_boxes.php:181
+#: ../inc/admin/class-admin-meta_boxes.php:177
+#: ../inc/admin/class-admin-meta_boxes.php:182
 #, fuzzy
 msgid "this page"
 msgstr "文章页面"
 
-#: ../inc/admin/class-admin-meta_boxes.php:176
-#: ../inc/admin/class-admin-meta_boxes.php:181
+#: ../inc/admin/class-admin-meta_boxes.php:177
+#: ../inc/admin/class-admin-meta_boxes.php:182
 #, fuzzy
 msgid "this post"
 msgstr "此文章"
 
-#: ../inc/admin/class-admin-meta_boxes.php:177
+#: ../inc/admin/class-admin-meta_boxes.php:178
 msgid "here"
 msgstr "这里"
 
-#: ../inc/admin/class-admin-meta_boxes.php:180
+#: ../inc/admin/class-admin-meta_boxes.php:181
 #, php-format
 msgid "Select a specific layout for %1$s"
 msgstr "选择一个单独样式给 %1$s"
 
-#: ../inc/admin/class-admin-meta_boxes.php:184
+#: ../inc/admin/class-admin-meta_boxes.php:185
 #, fuzzy, php-format
 msgid "Default layout %1s"
 msgstr "默认样式 %1s"
 
-#: ../inc/admin/class-admin-meta_boxes.php:226
+#: ../inc/admin/class-admin-meta_boxes.php:227
 #, fuzzy
 msgid "Add a slider to this post/page"
 msgstr "添加一个滑块到此文章/页面"
 
-#: ../inc/admin/class-admin-meta_boxes.php:290
-#: ../inc/admin/class-admin-meta_boxes.php:676
+#: ../inc/admin/class-admin-meta_boxes.php:291
+#: ../inc/admin/class-admin-meta_boxes.php:677
 #, fuzzy
 msgid "Choose a slider"
 msgstr "选择一个滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:297
-#: ../inc/admin/class-admin-meta_boxes.php:691
+#: ../inc/admin/class-admin-meta_boxes.php:298
+#: ../inc/admin/class-admin-meta_boxes.php:692
 #, fuzzy
 msgid "&mdash; Select a slider &mdash; "
 msgstr "&mdash; 选择一个滑块r &mdash; "
 
-#: ../inc/admin/class-admin-meta_boxes.php:302
+#: ../inc/admin/class-admin-meta_boxes.php:303
 msgid ""
 "To create a new slider : open the media library, edit your images and add "
 "them to your new slider."
 msgstr "创建新的滑块：打开媒体库，编辑您的图片并添加特们到新的滑块中。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:306
+#: ../inc/admin/class-admin-meta_boxes.php:307
 msgid "Delay between each slides in milliseconds (default : 5000 ms)"
 msgstr "每张幻灯片间隔时间以毫秒计算（默认：5000毫秒）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:313
+#: ../inc/admin/class-admin-meta_boxes.php:314
 msgid "Slider Layout : set the slider in full width"
 msgstr "滑块样式：设定滑块宽度为满页宽度"
 
-#: ../inc/admin/class-admin-meta_boxes.php:330
-#: ../inc/admin/class-admin-meta_boxes.php:700
+#: ../inc/admin/class-admin-meta_boxes.php:331
+#: ../inc/admin/class-admin-meta_boxes.php:701
 #, fuzzy
 msgid "Delete this slider"
 msgstr "删除滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:335
-#: ../inc/admin/class-admin-meta_boxes.php:704
+#: ../inc/admin/class-admin-meta_boxes.php:336
+#: ../inc/admin/class-admin-meta_boxes.php:705
 msgid ""
 "The slider will be deleted permanently (images, call to actions and link "
 "will be kept)."
 msgstr "此滑块将被永久删除（包含在其中的图片，宣传语以及链接将会保留）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:338
-#: ../inc/admin/class-admin-meta_boxes.php:707
+#: ../inc/admin/class-admin-meta_boxes.php:339
+#: ../inc/admin/class-admin-meta_boxes.php:708
 #, fuzzy
 msgid "Delete slider"
 msgstr "删除滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:346
+#: ../inc/admin/class-admin-meta_boxes.php:347
 #: ../inc/admin/class-controls.php:137
 msgid ""
 "You haven't create any slider yet. Go to the media library, edit your images "
@@ -807,105 +809,105 @@ msgid ""
 msgstr ""
 "您还没有创建任何滑块。进入媒体库，编辑您的图片并将它们添加到您的滑块中。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:498
+#: ../inc/admin/class-admin-meta_boxes.php:499
 #, fuzzy
 msgid "Add to a slider"
 msgstr "添加一个滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:500
+#: ../inc/admin/class-admin-meta_boxes.php:501
 msgid "Add to a slider (create one if needed)"
 msgstr "添加到一个滑块中（根据需要可创建一个滑块）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:633
+#: ../inc/admin/class-admin-meta_boxes.php:634
 msgid "Title text (80 car. max length)"
 msgstr "标题文字（最多40字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:640
+#: ../inc/admin/class-admin-meta_boxes.php:641
 msgid "Description text (below the title, 250 car. max length)"
 msgstr "描述文字（处标题下方，最多125字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:647
+#: ../inc/admin/class-admin-meta_boxes.php:648
 #, fuzzy
 msgid "Title and text color"
 msgstr "标题和文字颜色"
 
-#: ../inc/admin/class-admin-meta_boxes.php:655
+#: ../inc/admin/class-admin-meta_boxes.php:656
 msgid "Button text (80 car. max length)"
 msgstr "按钮文字（最多40字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:662
+#: ../inc/admin/class-admin-meta_boxes.php:663
 msgid "Choose a linked page or post (among the last 100)."
 msgstr "添加一个链接页面或链接文章（在过去发表的100篇内容中选取）。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:667
+#: ../inc/admin/class-admin-meta_boxes.php:668
 #, fuzzy
 msgid "No link"
 msgstr "无链接"
 
-#: ../inc/admin/class-admin-meta_boxes.php:697
-#: ../inc/admin/class-admin-meta_boxes.php:728
+#: ../inc/admin/class-admin-meta_boxes.php:698
+#: ../inc/admin/class-admin-meta_boxes.php:729
 #, fuzzy
 msgid "Add a slider"
 msgstr "添加一个滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:726
+#: ../inc/admin/class-admin-meta_boxes.php:727
 msgid ""
 "You haven't create any slider yet. Write a slider name and click on the "
 "button to add you first slider."
 msgstr ""
 "您还没有添加任何滑块。键入一个滑块名称然后在按钮上点击以添加您的第一个滑块。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:843
+#: ../inc/admin/class-admin-meta_boxes.php:844
 msgid ""
 "This slider has not slides to show. Go to the media library and start adding "
 "images to it."
 msgstr "此滑块还没有添加幻灯片。进入媒体库并添加图片到此滑块中。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:853
+#: ../inc/admin/class-admin-meta_boxes.php:854
 #, fuzzy
 msgid "Slide Image"
 msgstr "滑块图片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:854
+#: ../inc/admin/class-admin-meta_boxes.php:855
 msgid "Title"
 msgstr "标题"
 
-#: ../inc/admin/class-admin-meta_boxes.php:855
+#: ../inc/admin/class-admin-meta_boxes.php:856
 #, fuzzy
 msgid "Slide Text"
 msgstr "Diapositive"
 
-#: ../inc/admin/class-admin-meta_boxes.php:856
+#: ../inc/admin/class-admin-meta_boxes.php:857
 #, fuzzy
 msgid "Button Text"
 msgstr "按钮文字"
 
-#: ../inc/admin/class-admin-meta_boxes.php:857
+#: ../inc/admin/class-admin-meta_boxes.php:858
 msgid "Button Link"
 msgstr "按钮链接"
 
-#: ../inc/admin/class-admin-meta_boxes.php:858
+#: ../inc/admin/class-admin-meta_boxes.php:859
 #: ../parts/class-content-breadcrumb.php:595
 #: ../parts/class-content-breadcrumb.php:628
 #: ../parts/class-content-breadcrumb.php:643
 #: ../parts/class-content-breadcrumb.php:671
-#: ../parts/class-content-comments.php:157
-#: ../parts/class-content-headings.php:240
-#: ../parts/class-content-slider.php:239
+#: ../parts/class-content-comments.php:159
+#: ../parts/class-content-headings.php:243
+#: ../parts/class-content-slider.php:238
 msgid "Edit"
 msgstr "编辑"
 
-#: ../inc/admin/class-admin-meta_boxes.php:899
+#: ../inc/admin/class-admin-meta_boxes.php:900
 #, fuzzy
 msgid "No Image Selected"
 msgstr "未选中图片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:925
+#: ../inc/admin/class-admin-meta_boxes.php:926
 #, fuzzy
 msgid "Edit this slide"
 msgstr "编辑此幻灯片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:927
+#: ../inc/admin/class-admin-meta_boxes.php:928
 #, fuzzy
 msgid "Current slide"
 msgstr "当前幻灯片"
@@ -1044,19 +1046,56 @@ msgid "Follow us"
 msgstr "关注我"
 
 #: ../inc/admin/class-fire-admin_init.php:251
-msgid "Customizr Showcase"
-msgstr "Customizr 网站展示"
+#, fuzzy
+msgid "Customizr's extensions"
+msgstr "个性定制屏幕"
 
 #: ../inc/admin/class-fire-admin_init.php:254
-#: ../inc/admin/class-fire-admin_init.php:261
-msgid "Visit the showcase"
+#: ../inc/admin/class-fire-admin_init.php:263
+#, fuzzy
+msgid "Visit the extension's page"
 msgstr "访问展示中心"
 
 #: ../inc/admin/class-fire-admin_init.php:255
+msgid "Easily take your web design one step further"
+msgstr ""
+
+#: ../inc/admin/class-fire-admin_init.php:256
+msgid ""
+"The Customizr's extensions are plugins developed to extend the Customizr "
+"theme with great features. Nicely integrated with the theme's built-in "
+"options, they can be enabled/disabled safely with no side effects on your "
+"existing settings or customizations."
+msgstr ""
+
+#: ../inc/admin/class-fire-admin_init.php:258
+msgid ""
+"These modules are designed to be simple to use for everyone. They are a good "
+"solution to add some creative customizations whitout needing to dive into "
+"the code."
+msgstr ""
+
+#: ../inc/admin/class-fire-admin_init.php:260
+msgid ""
+"Customizr's extensions are installed and upgraded from your WordPress admin, "
+"like any other WordPress plugins. Well documented and easily extendable with "
+"hooks, they come with a dedicated support forum on themesandco.com."
+msgstr ""
+
+#: ../inc/admin/class-fire-admin_init.php:269
+msgid "Customizr Showcase"
+msgstr "Customizr 网站展示"
+
+#: ../inc/admin/class-fire-admin_init.php:272
+#: ../inc/admin/class-fire-admin_init.php:279
+msgid "Visit the showcase"
+msgstr "访问展示中心"
+
+#: ../inc/admin/class-fire-admin_init.php:273
 msgid "Find inspiration for your next Customizr based website!"
 msgstr "寻求下一个 Customizr 网站灵感"
 
-#: ../inc/admin/class-fire-admin_init.php:256
+#: ../inc/admin/class-fire-admin_init.php:274
 msgid ""
 "This showcase aims to show what can be done with Customizr and helping other "
 "users to find inspiration for their web design."
@@ -1064,22 +1103,22 @@ msgstr ""
 "此展示页面的目的是想人们展示通过Customizr能够做到什么样的事情并起到鼓励他人的"
 "作用"
 
-#: ../inc/admin/class-fire-admin_init.php:258
+#: ../inc/admin/class-fire-admin_init.php:276
 msgid ""
 "Do you think you made an awesome website that can inspire people? Submitting "
 "a site for review is quick and easy to do."
 msgstr "觉得你的网站够漂亮，能够带动其他人吗？提交你的网站给大家看看吧"
 
-#: ../inc/admin/class-fire-admin_init.php:268
+#: ../inc/admin/class-fire-admin_init.php:286
 #, fuzzy, php-format
 msgid "Changelog in version %1$s"
 msgstr " %1$s版本变更记录"
 
-#: ../inc/admin/class-fire-admin_init.php:277
+#: ../inc/admin/class-fire-admin_init.php:295
 msgid "Go to Dashboard &rarr; Home"
 msgstr "去后台仪表盘 &rarr; 主页"
 
-#: ../inc/admin/class-fire-admin_init.php:277
+#: ../inc/admin/class-fire-admin_init.php:295
 msgid "Go to Dashboard"
 msgstr "进入仪表盘"
 
@@ -1177,44 +1216,44 @@ msgstr "合并"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgstr "One thought on &ldquo;%2$s&rdquo;"
 
-#: ../parts/class-content-comments.php:124
+#: ../parts/class-content-comments.php:123
 msgid "Pingback:"
 msgstr "广播:"
 
-#: ../parts/class-content-comments.php:124
+#: ../parts/class-content-comments.php:123
 msgid "(Edit)"
 msgstr "（编辑）"
 
-#: ../parts/class-content-comments.php:149
+#: ../parts/class-content-comments.php:151
 msgid "Reply"
 msgstr "回复"
 
-#: ../parts/class-content-comments.php:156
+#: ../parts/class-content-comments.php:158
 msgid "Post author"
 msgstr "文章作者"
 
-#: ../parts/class-content-comments.php:163
+#: ../parts/class-content-comments.php:165
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s 于 %2$s"
 
-#: ../parts/class-content-comments.php:168
+#: ../parts/class-content-comments.php:170
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正在等待审核"
 
-#: ../parts/class-content-comments.php:198
+#: ../parts/class-content-comments.php:204
 msgid "Comment navigation"
 msgstr "评论导航"
 
-#: ../parts/class-content-comments.php:204
+#: ../parts/class-content-comments.php:210
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
 msgstr "<span class=\"meta-nav\">&larr;</span> 旧评论"
 
-#: ../parts/class-content-comments.php:212
+#: ../parts/class-content-comments.php:218
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
 msgstr "新评论 <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../parts/class-content-comments.php:244
+#: ../parts/class-content-comments.php:250
 msgid "Comments are closed."
 msgstr "评论已经关闭"
 
@@ -1249,65 +1288,65 @@ msgstr "附件丢失"
 msgid "Ooops, page not found"
 msgstr "唉，没找到页面"
 
-#: ../parts/class-content-headings.php:55
+#: ../parts/class-content-headings.php:57
 msgid "No"
 msgstr "没有"
 
-#: ../parts/class-content-headings.php:56
+#: ../parts/class-content-headings.php:58
 #, fuzzy
 msgid "Search Results for :"
 msgstr "%1s搜寻结果: %2s"
 
-#: ../parts/class-content-headings.php:68
+#: ../parts/class-content-headings.php:73
 #, fuzzy
 msgid "Author Archives :"
 msgstr "作者归档: %s"
 
-#: ../parts/class-content-headings.php:82 ../parts/class-content-post.php:98
+#: ../parts/class-content-headings.php:87 ../parts/class-content-post.php:98
 #, php-format
 msgid "About %s"
 msgstr "关于 %s"
 
-#: ../parts/class-content-headings.php:94
+#: ../parts/class-content-headings.php:100
 #, fuzzy
 msgid "Category Archives :"
 msgstr "分类目录: %s"
 
-#: ../parts/class-content-headings.php:110
+#: ../parts/class-content-headings.php:116
 #, fuzzy
 msgid "Tag Archives :"
 msgstr "标签归档: %s"
 
-#: ../parts/class-content-headings.php:122
+#: ../parts/class-content-headings.php:129
 #, php-format
 msgid "Daily Archives: %s"
 msgstr "每日归档: %s"
 
-#: ../parts/class-content-headings.php:122
+#: ../parts/class-content-headings.php:129
 msgid "Archives"
 msgstr "归档"
 
-#: ../parts/class-content-headings.php:123
+#: ../parts/class-content-headings.php:130
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr "每月归档: %ss"
 
-#: ../parts/class-content-headings.php:124
+#: ../parts/class-content-headings.php:131
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr "每年归档: %s"
 
-#: ../parts/class-content-headings.php:210
-#: ../parts/class-content-headings.php:216
+#: ../parts/class-content-headings.php:213
+#: ../parts/class-content-headings.php:219
 msgid "{no title} Read the post &raquo;"
 msgstr "{no title} 阅读此文章 &raquo;"
 
-#: ../parts/class-content-headings.php:215
+#: ../parts/class-content-headings.php:218
 #, php-format
 msgid "Permalink to %s"
 msgstr "Permalink to %s"
 
-#: ../parts/class-content-headings.php:233
+#: ../parts/class-content-headings.php:236
 #, fuzzy
 msgid "Comment(s) on"
 msgstr "评论开启"
@@ -1374,30 +1413,30 @@ msgstr "此文章于%3$s发表在%1$s类别中<span class=\"by-author\"> by %4$s
 msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
 msgstr "此文章发表于%3$s<span class=\"by-author\"> by %4$s</span>."
 
-#: ../parts/class-content-post_metas.php:136
-#: ../parts/class-content-post_metas.php:168
+#: ../parts/class-content-post_metas.php:134
+#: ../parts/class-content-post_metas.php:166
 #, php-format
 msgid "View all posts in %s"
 msgstr "参看所有文章 %s"
 
-#: ../parts/class-content-post_navigation.php:61
-#: ../parts/class-content-post_navigation.php:94
+#: ../parts/class-content-post_navigation.php:59
+#: ../parts/class-content-post_navigation.php:92
 msgid "Post navigation"
 msgstr "文章导航"
 
-#: ../parts/class-content-post_navigation.php:104
+#: ../parts/class-content-post_navigation.php:102
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> 旧文章"
 
-#: ../parts/class-content-post_navigation.php:117
+#: ../parts/class-content-post_navigation.php:115
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "新文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#: ../parts/class-footer-footer_main.php:176
+#: ../parts/class-footer-footer_main.php:177
 msgid "Back to top"
 msgstr "回到顶端"
 
-#: ../parts/class-header-header_main.php:151
+#: ../parts/class-header-header_main.php:149
 #, fuzzy
 msgid "Back Home"
 msgstr "首页"
@@ -1407,16 +1446,18 @@ msgstr "首页"
 msgid "Add a menu"
 msgstr "添加一个菜单"
 
+#~ msgid "Dev Tools (advanced users)"
+#~ msgstr "开发者工具 （适用于高级用户）"
+
+#~ msgid "Enable/disable the Dev Tools"
+#~ msgstr "启用/停用开发者工具"
+
 #~ msgid "Two sidebars"
 #~ msgstr "双边栏"
 
 #, fuzzy
 #~ msgid "Full Width"
 #~ msgstr "满页宽度"
-
-#, fuzzy
-#~ msgid "Custom featured page "
-#~ msgstr "首页特色页面二"
 
 #, fuzzy
 #~ msgid "Featured text two "

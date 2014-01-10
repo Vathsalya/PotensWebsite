@@ -247,6 +247,24 @@ class TC_admin_init {
         </div><!-- .feature-section -->
       </div><!-- .changelog -->
 
+      <div id="extend" class="changelog">
+        <h3 style="text-align:left"><?php _e("Customizr's extensions" ,'customizr') ?></h3>
+
+        <div class="feature-section images-stagger-right">
+           <a class="" title="<?php _e("Visit the extension's page",'customizr') ?>" href="<?php echo TC_WEBSITE ?>extend/" target="_blank"><img alt="Customizr'extensions" src="<?php echo TC_BASE_URL.'inc/admin/img/extend.png' ?>" class=""></a>
+          <h4 style="text-align: left"><?php _e('Easily take your web design one step further' ,'customizr') ?></h4></br>
+          <p style="text-align: left"><?php _e("The Customizr's extensions are plugins developed to extend the Customizr theme with great features. Nicely integrated with the theme's built-in options, they can be enabled/disabled safely with no side effects on your existing settings or customizations." , 'customizr') ?>
+          </p>
+          <p style="text-align: left"><?php _e("These modules are designed to be simple to use for everyone. They are a good solution to add some creative customizations whitout needing to dive into the code." , 'customizr') ?>
+          </p>
+          <p style="text-align: left"><?php _e("Customizr's extensions are installed and upgraded from your WordPress admin, like any other WordPress plugins. Well documented and easily extendable with hooks, they come with a dedicated support forum on themesandco.com." , 'customizr') ?>
+          </p>
+          <p style="text-align:left">    
+              <a class="button-primary review-customizr" title="<?php _e("Visit the extension's page",'customizr') ?>" href="<?php echo TC_WEBSITE ?>customizr/extend/" target="_blank"><?php _e("Visit the extension's page",'customizr') ?> &raquo;</a>
+          </p>
+        </div>
+      </div>
+
       <div id="showcase" class="changelog">
         <h3 style="text-align:right"><?php _e('Customizr Showcase' ,'customizr') ?></h3>
 
